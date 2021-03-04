@@ -30,9 +30,9 @@ jobs:
          git config --local user.name "yingguqing"
          git add README.md
          git commit -m "update readme.md"
+         
     - name: Push changes
       uses:  ad-m/github-push-action@master
       with:
          github_token: ${{ secrets.MY_GIT_TOKEN  }}
-         branch: main
         pytest
