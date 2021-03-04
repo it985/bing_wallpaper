@@ -24,7 +24,10 @@ class Images(object):
         self.showDate = time.strftime("%Y-%m-%d", timeStruct)
 
         # 图片版权
-        copyright = str(jsonData['copyright'])
+        if 'copyright' in jsonData.keys():
+            copyright = str(jsonData['copyright'])
+        else:
+            copyright = ''
         self.desc = copyright
 
     # 其他日期的图片展示
