@@ -43,7 +43,8 @@ class Images(object):
     def toJson(self):
         return {
             "enddate" : self.date,
-            "url" : self.url
+            "url" : self.url,
+            "copyright" : self.desc
         }
     
 
