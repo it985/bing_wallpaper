@@ -29,6 +29,7 @@ jobs:
          git config --local user.email "yingguqing@gmail.com"
          git config --local user.name "yingguqing"
          git add README.md
+         git add bing-wallpaper.json
          git commit -m "update readme.md"
          
     - name: Push changes
