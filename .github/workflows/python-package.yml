@@ -20,9 +20,8 @@ jobs:
       with:
         python-version: 3.9
     - name: Run Python Application
-      run: |
-        cd src
-        python Wallpaper.py
+      run: 
+        python src/Wallpaper.py
         
     - name: Commit files
       run: |
