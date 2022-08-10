@@ -1,4 +1,4 @@
-## Bing Wallpaper
+## Bing Wallpaper 1
 ![](https://cn.bing.com/th?id=OHR.CuevaManos_EN-US2810052050_UHD.jpg&w=1000)Today: [Cueva de las Manos (Cave of the Hands) in Santa Cruz, Argentina (© Adwo/Alamy)](https://cn.bing.com/th?id=OHR.CuevaManos_EN-US2810052050_UHD.jpg)
 |      |      |      |
 | :----: | :----: | :----: |
