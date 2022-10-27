@@ -25,8 +25,8 @@ jobs:
         
     - name: Commit files
       run: |
-         git config --local user.email "yingguqing@gmail.com"
-         git config --local user.name "yingguqing"
+         git config --local user.email "2071916845@qq.com"
+         git config --local user.name "it985"
          git add README.md
          git add bing-wallpaper.json
          git commit -m "update readme.md"
@@ -34,7 +34,7 @@ jobs:
     - name: Push changes
       uses:  ad-m/github-push-action@master
       with:
-         github_token: ${{ secrets.MY_GIT_TOKEN  }}
+         github_token: ${{ secrets.TOKEN  }}
          branch: main
          
          
